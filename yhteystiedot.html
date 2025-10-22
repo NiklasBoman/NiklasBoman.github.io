@@ -1,0 +1,41 @@
+<!doctype hmtl>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel ="stylesheet" href="stylesheetkahvila.css">
+<title>Yhteystiedot</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"> <strong>Kahvila Pulla ja Kakku </strong></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index3.html" >Etusivu</a></li>
+            <li class="active"><a href="#">Yhteystiedot</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <h2>Löydät meidät täältä:</h2>
+        <h3> Osoite: Satamakatu 12, 70100 Kuopio
+             <br>Puhelin: 050 123 4567
+             <br>Sähköposti: info@pullajakakku.fi</h3> <br>
+             <form method="post" action="lomake.php">
+<label for="yhteytta">Ota meihin yhteyttä</label> <br>
+<label for="nimi">Nimeni:</label><br> <input type="text" name="nimi" id="nimi" /> <br>
+<label for="sposti">Sähköpostiosoitteeni:</label><br> <input type="text" name="sposti" id="sposti" /> <br>
+<label for="viesti">Palaute:</label><br> <textarea name="viesti" id="viesti" cols="45" rows="5"></textarea> <br>
+<input type="submit" name="laheta" id="laheta" value="Lähetä" /> 
+</form>
+      </div>
+    
+</body>
+</html>
